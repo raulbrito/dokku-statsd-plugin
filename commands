@@ -125,13 +125,13 @@ case "$1" in
 
   help)
     cat && cat<<EOF
-    statsd:create [<app>]                         Create a Graphite/Statsd container [and link the <app>]
-    statsd:rebuild                                Rebuild Graphite/Statsd container (keep persistend data)
-    statsd:delete                                 Delete Graphite/Statsd container
-    statsd:info                                   Display Graphite/Statsd container informations
-    statsd:link <app>                             Link an <app> to the Graphite/Statsd container
-    statsd:list                                   Display list of Graphite/Statsd linked apps
-    statsd:logs                                   Display last logs from Graphite/Statsd container
+    statsd:create [<app>]                         Create a Statsd container [and link the <app>]
+    statsd:rebuild                                Rebuild Statsd container (keep persistend data)
+    statsd:delete                                 Delete Statsd container
+    statsd:info                                   Display Statsd container informations
+    statsd:link <app>                             Link an <app> to the Statsd container
+    statsd:list                                   Display list of Statsd linked apps
+    statsd:logs                                   Display last logs from Statsd container
 EOF
     ;;
 
